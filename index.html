@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>ConneKt</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container overflow-y my-3">
+    <div class="row mx-md-5">
+        <!-- Image -->
+        <div class="col-md-6 col-sm-12 m-0 g-0">
+            <div class="img-fluid"><img src="./Image/login1.png" class="img-fluid" alt=""></div>
+        </div>
+
+        <!-- Login -->
+        <div class="col-md-6 col-sm-12 bg-dark pb-2 rounded-3 px-md-5 py-md-3">
+            <!-- Logo and Name -->
+            <div class="container">
+                <div class="row justify-content-center align-items-center py-md-4">
+                    <div class="col-auto">
+                        <img src="./Image/logo.png" alt="C">
+                    </div>
+                    <div class="col-auto">
+                        <h1 class="appName text-light">Connekt</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-light text-center welcome py-md-4">WELCOME BACK</p>
+                </div>
+            </div>
+            <!-- Add form fields for testing scroll -->
+            <form class="py-md-4">
+                <div class="mb-3 py-md-3">
+                    <label for="email" class="form-label text-light">Email</label>
+                    <input type="email" class="form-control input-box w-100 h-25 " id="email">
+                </div>
+                <div class="mb-3 pb-0 mb-0">
+                    <label for="password" class="form-label text-light">Password</label>
+                    <input type="password" class="form-control input-box w-100" id="password">
+                </div>
+                <div class="row pt-0 mt-0">
+                    <div class="col-6">
+                        <div class="container mb-3">
+                            <div class="row">
+                                <div class="col-1 g-0">
+                                    <input type="checkbox" class="bg-dark">
+                                </div>
+                                <div class="col-11">
+                                    <p class="text-light remember">Remember me</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 align-items-end">
+                        <p class="text-light remember">Forgot Password</p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark w-100 my-md-1 mt-md-2 border-light">Sign In</button>
+                <button type="button" class="btn btn-dark w-100 my-md-1 border-light">Sign In with Google</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
