@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.nav{
+    position: sticky top !important;
+}
+.search{
+    width: 100% !important;
+    height: 40px;
+    
+    border-radius: 20px;
+}
+.search_div{
+    padding: 1.5%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.NavBar{
+    display: flex;
+}
+.user_profile{
+    width: 50px;
+    margin-left: 80%;
+}
+
+.full_view{
+    height: 100vh !important;
+    overflow-y: visible !important;
+}
+.profile-part{
+    position: relative;
+}
+.profile-pic{
+    position: absolute;
+    left: 35%;
+    top: 70px;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+.skill-box {
+    margin: 0px 20px !important;
+}
+
+.skill {
+    font-size: 13px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px;
+    color: white;
+}
