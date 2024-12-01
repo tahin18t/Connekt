@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: black !important;
 }
 
 .nav{
@@ -23,6 +23,12 @@ body{
 .icon{
     width: 30px;
     height: 30px;
+    transition: transform .4s ease, filter 2s ease;
+}
+.icon:hover{
+    filter: brightness(0) invert(1) sepia(2) hue-rotate(0deg) saturate(10);
+    transform: scale(1.2);
+    transition: transform .4s ease;
 }
 .NavBar{
     display: flex;
@@ -41,13 +47,13 @@ body{
 }
 .profile-pic{
     position: absolute;
-    left: 35%;
-    top: 70px;
+    left: 29%;
+    top: 77px;
     border: 8px solid black;
     border-radius: 10px;
 }
 .skill-box {
-    margin: 0px 20px !important;
+    margin: 0px 5px !important;
 }
 
 .skill {
@@ -57,4 +63,23 @@ body{
     margin: 10px 5px;
     padding: 5px;
     color: white;
+}
+.overflow-x{
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.overflow-y{
+    overflow-y: scroll;
+}
+
+.story-contant{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 62px;
+    height: 72;
+}
+.story{
+    
 }
