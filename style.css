@@ -6,6 +6,12 @@ body, html {
     background: linear-gradient(245deg, rgba(0, 0, 0, 0.34) 49%, rgba(102, 102, 102, 0.34) 100%);
 }
 
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
 .appName{
     color: yellow;!important;
     font-family: "ADLaM Display";

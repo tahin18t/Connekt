@@ -12055,3 +12055,21 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+.overflow-x{
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.overflow-y{
+  overflow-y: scroll;
+}
+.settings-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+}
+/* designed by me*/

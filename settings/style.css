@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+.nav{
+    position: sticky top !important;
+}
+.NavBar{
+    display: flex;
+}
+.search_div{
+    padding: 1.5%;
+}
+.search{
+    width: 100% !important;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.search::placeholder {
+    font-weight: bolder;
+}
+.search2::placeholder{
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    transition: transform .4s ease, filter 2s ease;
+}
+.icon:hover{
+    filter: brightness(0) invert(1) sepia(2) hue-rotate(0deg) saturate(10);
+    transform: scale(1.2);
+    transition: transform .4s ease;
+}
+.user_profile{
+    width: 50px;
+    margin-left: 80%;
+}
+.full_view{
+    height: 100vh !important;
+    overflow-y: visible !important;
+}
+.setting-img{
+    width: 45px;
+}
+.menue-text {
+    display: inline-block; /* Treats the h3 as inline content */
+    white-space: nowrap; /* Prevents line breaks */
+    line-height: 1; /* Ensures no extra spacing due to line height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+.sitm{
+    
+    align-items: center;
+}
+.sitm:hover{
+    background-color: #fffd02;
+    position: relative;
+    left: 50px;
+    width: 96.4%;
+    border-radius: 10px 0px 0px 10px;
+    cursor:grab;
+    transition: transform .4s ease;
+}
+/* Target the container with the .active class when hovered */
+.sitm:hover img {
+    filter: brightness(0); /* Changes the image to appear inverted (or you can add a specific color filter) */
+}
+.sitm:hover h3 {
+    filter: brightness(0); /* Changes the text color (use any color you prefer, e.g., orange) */
+}
+.active{
+    background-color: #fffd02;
+    position: relative;
+    left: 50px;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
+    padding-right: 100px;
+    justify-content: start;
+    align-items: center;
+}
