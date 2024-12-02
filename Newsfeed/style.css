@@ -67,7 +67,9 @@ body{
 }
 .story-contant{
     height: 77px;
+    padding-left: 5%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     overflow-x: auto;
     overflow-y: hidden;
@@ -76,7 +78,7 @@ body{
 }
 .story{
     align-items: center;
-    width: 72px;
+    width: 20% !important;
 }
 .story img{
     width: 60px;

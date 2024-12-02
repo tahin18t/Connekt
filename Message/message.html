@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../bootstrap.css">
     <link rel="shortcut icon" href="../Image/logo.png" type="image/x-icon">
 </head>
-<body>
+<body class="bg-black">
     <div class="container sticky-top bg-dark">
         <div class="row nav">
             <div class="col-md-4 col-sm-12 d-flex">
@@ -28,5 +28,132 @@
             </div>
         </div>
     </div>
+
+<!--Main body-->
+    <div class="container bg-dark vh-100 d-flex">
+        <!-- Left Sidebar -->
+        <div class="col-4 bg-black p-3 settings-container rounded-top-3">
+            <h4 class="text-light mb-4">Messages</h4>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Search Messages" />
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link text-dark active text-light" href="#">Primary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">General</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Request(2)</a>
+                </li>
+            </ul>
+            <!-- Chat List -->
+            <div class="chat-list mt-3">
+                <div class="d-flex align-items-center p-2 bg-warning rounded mb-2">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 text-dark fw-bold">Aman</p>
+                        <small class="text-dark">Hi, How do you do</small>
+                    </div>
+                </div>
+                <!-- Repeat chats -->
+                <div class="d-flex align-items-center p-2 text-light">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 fw-bold">Jhon</p>
+                        <small>Hi, good morning</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-2 text-light">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 fw-bold">Jhon</p>
+                        <small>Hi, good morning</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-2 text-light">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 fw-bold">Jhon</p>
+                        <small>Hi, good morning</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-2 text-light">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 fw-bold">Jhon</p>
+                        <small>Hi, good morning</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-2 text-light">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <p class="mb-0 fw-bold">Jhon</p>
+                        <small>Hi, good morning</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="col-8 p-3 settings-container">
+            <!-- Header -->
+            <div class="d-flex justify-content-between align-items-center mb-4 bg-secondary p-3 rounded-top-3">
+                <div class="d-flex align-items-center">
+                    <img src="../Image/userImg1.png" class="rounded-3 me-2" alt="User">
+                    <div>
+                        <h5 class="mb-0 text-light">Aman <span class="text-warning">❤️</span></h5>
+                        <small>Active 1 min ago</small>
+                    </div>
+                    
+                </div>
+                <div>
+                    <i class="bi text-light mx-2"><img src="../Image/call.svg" alt=""></i>
+                    <i class="bi text-light mx-2"><img src="../Image/video.svg" alt=""></i>
+                    <i class="bi text-light mx-2"><img src="../Image/info.svg" alt=""></i>
+                </div>
+            </div>
+            <!-- Messages -->
+            <div class="messages bg-dark p-3 rounded overflow-auto mb-3" style="height: 70vh;">
+                <!-- Sender -->
+                <div class="d-flex justify-content-start mb-3">
+                    <div class="bg-warning p-2 rounded-3 text-dark">
+                        Hi, how are you? 😁
+                    </div>
+                </div>
+                <!-- Receiver -->
+                <div class="d-flex justify-content-end mb-3">
+                    <div class="bg-light p-2 rounded-3 text-dark">
+                        I'm doing well.. 😎
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="d-flex justify-content-start mb-3">
+                    <img src="../Image/ChatImg.png" class="rounded" alt="Sent Image">
+                </div>
+                <!-- Another message -->
+                <div class="d-flex justify-content-start mb-3">
+                    <div class="bg-warning p-2 rounded-3 text-dark">
+                        How is this?
+                    </div>
+                </div>
+                <!-- Receiver -->
+                <div class="d-flex justify-content-end mb-3">
+                    <div class="bg-light p-2 rounded-3 text-dark">
+                        Wow, It's amayzing 😍
+                    </div>
+                </div>
+            </div>
+            <!-- Input Area -->
+            <div class="input-group text-write">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Type your message..." />
+                <button class="btn btn-warning text-dark">Send</button>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>

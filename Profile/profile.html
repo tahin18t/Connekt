@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../bootstrap.css">
     <link rel="shortcut icon" href="../Image/logo.png" type="image/x-icon">
 </head>
-<body>
+<body class="bg-black text-light">
     <div class="container sticky-top bg-dark">
         <div class="row nav">
             <div class="col-md-4 col-sm-12 d-flex">
@@ -28,5 +28,75 @@
             </div>
         </div>
     </div>
+
+
+
+    <div class="container py-5">
+        <!-- Profile Section -->
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="../Image/userImg1.png" alt="Profile Picture" class="profile-pic mb-3">
+                <h4>Shahriar Sakhawat</h4>
+                <p class="text-secondary">Web Developer & Problem Solver</p>
+                <p class="fw-bold m-5">we're a small team of idiots who aimed to bring you the best UI materials on the web</p>
+                <button class="btn btn-edit bg-yellow">Edit Profile</button>
+            </div>
+    
+            <!-- Tabs and Graph Section -->
+            <div class="col-md-8">
+                <ul class="nav nav-pills tabs-nav mb-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-yellow fw-bold" href="#">Activity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Display</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Apps</a>
+                    </li>
+                </ul>
+    
+                <div>
+                    <h5>My Account Activity</h5>
+                    <div class="graph-placeholder mb-4"></div>
+                </div>
+    
+                <!-- Profile Settings -->
+                <div>
+                    <h5>My Profile Settings</h5>
+                    <p class="text-secondary">Please edit your details below</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" id="password" class="form-control" value="**********">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" id="email" class="form-control" value="elviz@gmail.com">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Date (DD)">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Time">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="TT">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../bootstrap.js"></script>
+
+
+
 </body>
 </html>

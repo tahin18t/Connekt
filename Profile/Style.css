@@ -42,3 +42,48 @@
     height: 100vh !important;
     overflow-y: visible !important;
 }
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+.tabs-nav {
+    border-bottom: 2px solid #444;
+}
+.tabs-nav .nav-link {
+    color: #fff;
+}
+.tabs-nav .nav-link.active {
+    color: yellow;
+    border-color: yellow;
+}
+.graph-placeholder {
+    background-color: rgba(255, 253, 2, 0.2);
+    border: 1px dashed yellow;
+    height: 200px;
+}
+.form-control {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid yellow;
+}
+.form-control:focus {
+    background-color: #333;
+    border-color: yellow;
+    box-shadow: none;
+}
+.btn-edit {
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+.btn-edit:hover {
+    background-color: #ffd700;
+}
+*text{
+    color: white;
+}

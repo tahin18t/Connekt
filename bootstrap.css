@@ -6995,6 +6995,9 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.bi{
+  width: 3px !important;
+}
 .icon-link > .bi {
   flex-shrink: 0;
   width: 1em;
@@ -12061,7 +12064,7 @@ textarea.form-control-lg {
   overflow-x: scroll;
 }
 ::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 .overflow-y{
   overflow-y: scroll;
@@ -12072,5 +12075,14 @@ textarea.form-control-lg {
   flex-direction: column;
   overflow-y:scroll;
   overflow-x: hidden;
+}
+.bg-yellow{
+  background-color: #fffd02;
+}
+.text-yellow{
+  color: #fffd02 !important;
+}
+.nav-link:hover{
+  color: #fffd02;
 }
 /* designed by me*/
