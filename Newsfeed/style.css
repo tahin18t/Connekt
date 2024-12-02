@@ -9,7 +9,8 @@ body{
 }
 
 .nav{
-    position: sticky top !important;
+    position: sticky !important;
+    top: 0;
 }
 .search{
     width: 100% !important;
@@ -64,22 +65,27 @@ body{
     padding: 5px;
     color: white;
 }
-.overflow-x{
-    overflow-x: scroll;
-}
-::-webkit-scrollbar {
-    display: none;
-}
-.overflow-y{
-    overflow-y: scroll;
-}
-
 .story-contant{
+    height: 77px;
     display: flex;
-    flex-wrap: nowrap;
-    width: 62px;
-    height: 72;
+    flex-direction: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    margin-top:3% !important;
 }
 .story{
-    
+    align-items: center;
+    width: 72px;
+}
+.story img{
+    width: 60px;
+    height: 60px;
+    padding: 4%;
+    background-color: black;
+    border-radius: 15%;
+    border: 3px solid #fffd02;
+}
+.bg-yellow{
+    background-color: #fffd02;
 }

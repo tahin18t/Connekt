@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+.nav{
+    position: sticky top !important;
+}
+.NavBar{
+    display: flex;
+}
+.search_div{
+    padding: 1.5%;
+}
+.search{
+    width: 100% !important;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.search::placeholder {
+    font-weight: bolder;
+}
+.search2::placeholder{
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    transition: transform .4s ease, filter 2s ease;
+}
+.icon:hover{
+    filter: brightness(0) invert(1) sepia(2) hue-rotate(0deg) saturate(10);
+    transform: scale(1.2);
+    transition: transform .4s ease;
+}
+.user_profile{
+    width: 50px;
+    margin-left: 80%;
+}
+.full_view{
+    height: 100vh !important;
+    overflow-y: visible !important;
+}

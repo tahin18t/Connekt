@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="../Image/logo.png" type="image/x-icon">
 </head>
 <body>
+    <!--Nav Bar-->
     <div class="container sticky-top bg-dark">
         <div class="row nav">
             <div class="col-md-4 col-sm-12 d-flex">
@@ -18,9 +19,9 @@
                             </div>
             </div>
             <div class="col-md-4 col-sm-12 py-3 justify-content-evenly NavBar">
-                <img src="../Image/home yellow.png" class="icon" alt="Home" srcset="">
-                <img src="../Image/user white.png" class="icon" alt="user" srcset="">
-                <img src="../Image/message white.png" class="icon" alt="message" srcset="">
+                <a href="Feed.html"               ><img src="../Image/home yellow.png"    class="icon" alt="Home"     srcset=""></a>
+                <a href="../Profile/profile.html"  ><img src="../Image/user white.png"     class="icon" alt="user"     srcset=""></a>
+                <a href="../Message/message.html"  ><img src="../Image/message white.png"  class="icon" alt="message"  srcset=""></a>
                 <a href="../settings/settings.html"><img src="../Image/settings white.png" class="icon" alt="settings" srcset=""></a>
                 
             </div>
@@ -98,21 +99,342 @@
 
 
             <!--NewsFeed-->
-            <div class="col-6 col-xs-12 bg-info">
+            <div class="col-6 col-xs-12">
                 <div class="container settings-container">
-                    --NewsFeed--
-                </div>
+                    <!-- Story -->
+                    <div class="row story-contant text-center">
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                        <div class="col-2 story">
+                            <img src="../Image/user yellow.png" class="img-fluid" alt="" srcset="">
+                            <h6 class="text-center text-light">User</h6>
+                        </div>
+                    </div>
+
+                    <!--Create Post-->
+                    <div class="row bg-dark m-1 mt-4 p-3 rounded-3">
+                        <div class="col-1 pt-1">
+                            <img src="../Image/user white.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-10 bg-black rounded-3 py-2 mx-2">
+                            <h6 class="text-light">Tell your friends about your thoughts..</h6>
+                        </div>
+                    </div>
+
+                    <!--Public Post-->
+                    <div class="row">
+
+                        <div class="container my-2">
+                            <div class="card bg-dark text-white p-3 rounded-3">
+                                <div class="d-flex align-items-start">
+                                    <!-- Profile Image -->
+                                    <img src="https://via.placeholder.com/50" class="rounded-2 me-3" alt="Profile">
+                                    <div>
+                                        <!-- Username and Time -->
+                                        <div class="d-flex align-items-center">
+                                            <span class="fw-bold text-secondary">@george</span>
+                                            <img src="../Image/verified.svg" class="ms-2" alt="Verified">
+                                        </div>
+                                        <h5 class="fw-bold m-0">George Jose <span class="text-warning">· 1 hour ago</span></h5>
+                                        <small class="text-muted">Jhon</small>
+                                    </div>
+                                </div>
+                        
+                                <!-- Post Text -->
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur. Porttitor.</p>
+                        
+                                <!-- Post Image -->
+                                <img src="../Image/500x300.jpg" class="img-fluid rounded-3" alt="Post Image">
+                        
+                                <!-- Reaction Icons -->
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="me-3"><img src="../Image/love.svg" alt="" srcset=""></i>
+                                        <i class="bi bi-chat me-3"><img src="../Image/comment.svg" alt="" srcset=""></i>
+                                        <i class="bi bi-send"><img src="../Image/share.svg" alt="" srcset=""></i>
+                                    </div>
+                                    <!-- Save Button -->
+                                    <button class="btn btn-warning text-dark fw-bold px-3">Save</button>
+                                </div>
+                        
+                                <!-- Comment Section -->
+                                <div class="mt-3 d-flex align-items-center">
+                                    <img src="https://via.placeholder.com/35" class="rounded-circle me-2" alt="User Comment">
+                                    <input type="text" class="form-control bg-secondary text-white border-0" placeholder="Write your comment...">
+                                    <i class="bi bi-send ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container my-2">
+                            <div class="card bg-dark text-white p-3 rounded-3">
+                                <div class="d-flex align-items-start">
+                                    <!-- Profile Image -->
+                                    <img src="https://via.placeholder.com/50" class="rounded-2 me-3" alt="Profile">
+                                    <div>
+                                        <!-- Username and Time -->
+                                        <div class="d-flex align-items-center">
+                                            <span class="fw-bold text-secondary">@george</span>
+                                            <img src="../Image/verified.svg" class="ms-2" alt="Verified">
+                                        </div>
+                                        <h5 class="fw-bold m-0">George Jose <span class="text-warning">· 1 hour ago</span></h5>
+                                        <small class="text-muted">Jhon</small>
+                                    </div>
+                                </div>
+                        
+                                <!-- Post Text -->
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur. Porttitor.</p>
+                        
+                                <!-- Post Image -->
+                                <img src="../Image/500x300.jpg" class="img-fluid rounded-3" alt="Post Image">
+                        
+                                <!-- Reaction Icons -->
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="me-3"><img src="../Image/love.svg" alt="" srcset=""></i>
+                                        <i class="bi bi-chat me-3"><img src="../Image/comment.svg" alt="" srcset=""></i>
+                                        <i class="bi bi-send"><img src="../Image/share.svg" alt="" srcset=""></i>
+                                    </div>
+                                    <!-- Save Button -->
+                                    <button class="btn btn-warning text-dark fw-bold px-3">Save</button>
+                                </div>
+                        
+                                <!-- Comment Section -->
+                                <div class="mt-3 d-flex align-items-center">
+                                    <img src="https://via.placeholder.com/35" class="rounded-circle me-2" alt="User Comment">
+                                    <input type="text" class="form-control bg-secondary text-white border-0" placeholder="Write your comment...">
+                                    <i class="bi bi-send ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>                
             </div>
 
-
             <!--Activity/Notification-->
-            <div class="col-3 d-none d-md-block bg-success">
-                Activity
+            <div class="col-3 d-none d-md-block bg-dark">
+                <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark m-2 my-4">
+                    <div class="card-body">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-2 position-relative">
+                                <img src="../Image/activity-image.jpg" class="rounded-4" style="width: 50px;" alt="" srcset="">
+                                <img src="../Image/verified.svg" class="position-relative" style="top: -57px; left: 30px;" alt="">
+                            </div>
+                            <div class="col-auto ms-3">
+                                <h5 class="card-title text-light">Michel</h5>
+                                <p class="card-text text-secondary fw-bold">Followed on you</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-black text-light fw-bold py-1 text-center rounded-4">Remove</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-yellow text-dark fw-bold py-1 text-center rounded-4">Follow Back</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
 </body>
 </html>
-
-
-

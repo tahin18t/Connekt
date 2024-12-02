@@ -12067,9 +12067,10 @@ textarea.form-control-lg {
   overflow-y: scroll;
 }
 .settings-container{
-  height: 90vh;
+  min-height: 87.7vh;
   display: flex;
   flex-direction: column;
-  overflow-y:scroll;
+  overflow-y:auto;
+  overflow-x: hidden;
 }
 /* designed by me*/
